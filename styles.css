@@ -1,0 +1,163 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", regular;
+}
+
+.header {
+    background-color: #1f2937;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+    font-size: 18px;
+
+}
+
+.section-1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+
+
+}
+
+.section-1-left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.title-1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.button-section-1 {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+    align-self: flex-start;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+
+}
+
+.section-1-image {
+    padding: 0;
+    height: 232px;
+}
+
+.section-2 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title-2 {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.mathematicians {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.math {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.math-images{
+    width: 200px;
+    border-radius: 20px;
+    border: 3px solid blue;
+}
+.text-math {
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-quote {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+
+}
+.person{
+    align-self: flex-end;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+
+}
+
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-size: 18px;
+}
+
+.box-4 {
+    background-color: #3882f6;
+    height: 60%;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+
+.box-button-4 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
