@@ -152,6 +152,9 @@ ul {
     gap: 30px
 }
 
+.box-text-4 {
+    margin-left: 50px;
+}
 .box-button-4 {
     background-color: #3882f6;
     border-radius: 5px;
@@ -160,4 +163,5 @@ ul {
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-right: 50px;
 }
